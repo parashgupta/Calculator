@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel = "stylesheet" href="xyz.css">
+        <link rel="icon" href="calci.png">
+        <script type="text/javascript" src="abc.js"></script>
+    </head>
+    <body>
+               <center>
+                   <div class="tab1">
+       <table id="tab" cellpadding="0">
+         <tr>
+             <th colspan="4"><input type="text" class="B" id="t1" onkeyup="demo()" disabled><br><font id="s1"></font></th>
+               
+           </tr>
+           <tr>
+               <th> <input type="button"  class="A" value="%" onclick="append('%')"></th>
+        <th> <input type="button"  class="A" value="CE" onclick="clearInput()"></th>
+        <th> <input type="button"  class="A" value="C" onclick="clearInput()"></th>
+        <th> <input type="button"  class="A" value="Back" onclick="back()"></th>
+       </tr> 
+       <tr>
+     <th> <input type="button"  class="A" value="1/x" ></th>
+      <th> <input type="button" class="A" value="sqrt"></th>
+        <th> <input type="button"  class="A" value="root"></th>
+        <th> <input type="button"  class="A" value="/" onclick="append('/')"></th>
+       </tr>
+       <tr>
+        <th> <input type="button"  class="A" value="7" onclick="append('7')"></th>
+        <th> <input type="button"  class="A" value="8" onclick="append('8')"></th>
+        <th> <input type="button"  class="A" value="9" onclick="append('9')"></th>
+        <th> <input type="button"  class="A" value="*" onclick="append('*')"></th>
+       </tr> 
+       <tr>
+     <th> <input type="button"  class="A" value="4" onclick="append('4')"></th>
+        <th> <input type="button"  class="A" value="5" onclick="append('5')"></th>
+        <th> <input type="button"  class="A" value="6"onclick="append('6')"></th>
+        <th> <input type="button"  class="A" value="-" onclick="append('-')"></th>
+       </tr>
+             <tr>
+     <th> <input type="button"  class="A" value="1" onclick="append('1')"></th>
+        <th> <input type="button"  class="A" value="2" onclick="append('2')"></th>
+        <th> <input type="button"  class="A" value="3" onclick="append('3')"></th>
+        <th> <input type="button"  class="A" value="+" onclick="append('+')"></th>
+       </tr>
+             <tr>
+      <th> <input type="button"  class="A" value="+/-"></th>
+        <th> <input type="button"  class="A" value="0" onclick="append('0')"></th>
+        <th> <input type="button"  class="A" value="." onclick="append('.')"></th>
+        <th> <input type="button"  class="A" value="=" onclick="total()"></th>
+       </tr>
+              </table>
+                   </div>
+               </center>
+    </body>
+</html>
