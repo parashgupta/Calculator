@@ -47,3 +47,21 @@ function back()
                 var t1 = document.getElementById('t1');
                 t1.value = t1.value.slice(0,-1);
 }
+
+function sqrt()
+{
+	var t1 = document.getElementById('t1');
+	t1.value=Math.sqrt(parseFloat(t1.value));
+}
+
+function cbrt()
+{
+	var t1 = document.getElementById('t1');
+	t1.value=Math.cbrt(parseFloat(t1.value));
+}
+
+function demo1()
+{
+		var t1 = document.getElementById('t1');
+		t1.value = 1/t1.value;
+}
